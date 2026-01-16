@@ -1,106 +1,77 @@
 import java.util.Scanner;
-
-//class MyArray {
-//    private int[] items;
-//    private int count;
+public class Main {
+    public static void main(String[] args) {
+//        int age = 21;
+//        double gpa = 3.5;
+//        char grade = 'A';
+//        boolean passed = true;
+//        String name = "shabeer inayat";
 //
-//    public MyArray(int length) {
-//        items = new int[length];
-//    }
+//        System.out.println("Name: " + name);
+//        System.out.println("Age: " + age);
+//        System.out.println("GPA: " + gpa);
+//        System.out.println("Grade: " + grade);
+//        System.out.println("Passed: " + passed);
 //
-//    public void insert(int value) {
-//        if (count == items.length) {
-//            System.out.println("Array is full! Cannot insert " + value);
-//            return;
+//                Scanner sc = new Scanner(System.in);
+//                System.out.print("Enter first number: ");
+//                int a = sc.nextInt();
+//                System.out.print("Enter second number: ");
+//                int b = sc.nextInt();
+//                System.out.println("Sum = " + (a + b));
+//        int num = 7;
+//
+//        if (num > 0) {
+//            System.out.println("Positive");
+//        } else if (num < 0) {
+//            System.out.println("Negative");
+//        } else {
+//            System.out.println("Zero");
 //        }
-//        items[count++] = value;
-//    }
-//
-//    public void print() {
-//        for (int i = 0; i < count; i++)
-//            System.out.print(items[i] + " ");
-//        System.out.println();
-//    }
-//}
-//class DynamicArray {
-//    private int[] items;
-//    private int count;
-//
-//    public DynamicArray(int length) {
-//        items = new int[length];
-//    }
-//
-//    public void insert(int value) {
-//        // if full, resize
-//        if (count == items.length) {
-//            int[] newItems = new int[count * 2];
-//            for (int i = 0; i < count; i++)
-//                newItems[i] = items[i];
-//            items = newItems;
-//            System.out.println("Array resized to " + items.length);
 //        }
-//        items[count++] = value;
-//    }
+//        int[] marks = {65, 50, 78, 93, 98};
 //
-//    public void print() {
-//        for (int i = 0; i < count; i++)
-//            System.out.print(items[i] + " ");
-//        System.out.println();
-//    }
-//    public void removeAt(int index) {
-//        if (index < 0 || index >= count) {
-//            System.out.println("Invalid index!");
-//            return;
-//        }
-//        for (int i = index; i < count - 1; i++)
-//            items[i] = items[i + 1];
-//        count--;
-//    }
-//
-//}
-
-
-//public class Main {
-//    public static void main(String[] args) {
-//        Scanner sc = new Scanner(System.in);
-//        System.out.print("Enter size: ");
-//        int n = sc.nextInt();
-//        int[] arr = new int[n];
-//
-//        for (int i = 0; i < n; i++) {
-//            System.out.print("Enter element " + (i + 1) + ": ");
-//            arr[i] = sc.nextInt();
+//        int sum = 0;
+//        for (int i = 0; i < marks.length; i++) {
+//            sum += marks[i];
 //        }
 //
-//        int sum = 0, max = arr[0], index = 0;
-//        for (int i = 0; i < n; i++) {
-//            sum += arr[i];
-//            if (arr[i] > max) {
-//                max = arr[i];
-//                index = i;
+//        double average = (double) sum / marks.length;
+//        System.out.println("Average Marks = " + average);
+//
+//        System.out.println("Factorial = " + factorial(5));
+//    }
+//
+//    public static int factorial(int n) {
+//        int fact = 1;
+//        for (int i = 1; i <= n; i++) {
+//            fact *= i;
+//        }
+//        return fact;
+//        class Car {
+//            String brand;
+//            String model;
+//            double price;
+//
+//            Car(String b, String m, double p) {
+//                brand = b;
+//                model = m;
+//                price = p;
+//            }
+//
+//            void displayDetails() {
+//                System.out.println("Brand: " + brand + ", Model: " + model + ", Price: $" + price);
 //            }
 //        }
 //
-//        double avg = (double) sum / n;
-//        System.out.println("Sum = " + sum);
-//        System.out.println("Average = " + avg);
-//        System.out.println("Max = " + max + " at index " + index);
-//        System.out.println("Time Complexity: O(n)");
-//        System.out.println("Space Complexity: O(n)");
-//        MyArray numbers = new MyArray(3);
-//        numbers.insert(11);
-//        numbers.insert(22);
-//        numbers.insert(33);
-//        numbers.insert(23); // full
-//        numbers.print();
-//        DynamicArray numbers = new DynamicArray(2);
-//        numbers.insert(11);
-//        numbers.insert(22);
-//        numbers.insert(33); // triggers resize
-//        numbers.insert(44);
-//        numbers.print();
-//        numbers.removeAt(3);
-//        System.out.println("Value at index 3 is deleted");
-//        numbers.print();
-    }
+//            Car c1 = new Car("Toyota", "century", 28600);
+//            Car c2 = new Car("Honda", "reborn", 31000);
+//            c1.displayDetails();
+//            c2.displayDetails();
+//
+
+      }
 }
+
+
+
